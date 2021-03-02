@@ -1,0 +1,99 @@
+.container {
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 120px;
+    max-width: auto;
+}
+
+h1 {
+    color: #585859;
+    font-size: 29px;
+    font-family: "Open Sans";
+}
+
+.password {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Mukta";
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.password p{
+    font-family: "Mukta";
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #585859;
+    margin-top: 0;
+    font-weight: bold;    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px; 
+}
+
+.login-register a{
+    color: #0077C5;
+    font-size: 16px;    
+    font-family: "Mukta";
+    text-decoration: none;
+}
+
+
+
+
+.button__login {
+    width: 371px;
+    height: 60px;
+    border-radius: 36px 36px 36px 36px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #7626FF;
+}
+
+.button__login:hover {
+    cursor: pointer;
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__login-input {
+    width: 371px;
+    height: 42px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 10px;
+}
+
+.form__login-input::placeholder {
+  color: #CAD0DC;
+  font-size: 14px;
+  font-family: "Mukta";
+  padding-left: 26.45px;
+}
+
+
+.nav-logo {
+    margin-left: 10.8px;
+    margin-top: 5.38px;
+}
+
+.footer__login-register {
+    background-image: url("../../assets/bg-front.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: top; 
+    margin-top: 73px;
+    padding: 40px;
+}

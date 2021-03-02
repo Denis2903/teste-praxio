@@ -1,0 +1,51 @@
+<nav>
+  <img class="nav-logo" src="../../assets/front-test-logo.png" alt="Logo do teste de Front-End">
+</nav>
+
+
+<div class="container2">
+  <h1>
+    Cadastrar
+  </h1>
+
+  <div class="register__data">
+    <div class="info">
+      <div class="info1">
+        <p>Informações Pessoais</p>
+        <form class="form__register" [formGroup]="personalInfoForm" >
+          <input formControlName="name" type="text" placeholder="Nome/Razão Social" class="form__register-text">
+          <div>
+            <input formControlName="documentNumber" type="text" placeholder="CPF" mask="00.000.0000-00" class="form__register-number">
+            <input formControlName="phoneNumber" type="text" placeholder="Telefone" mask="(00) 00000-0000" class="form__register-number2">
+          </div>
+          <input formControlName="email" type="email"  placeholder="E-mail" class="form__register-text">
+          <input formControlName="senha" type="password" placeholder="Senha" class="form__register-text">
+        </form>
+      </div>
+      <div class="info2">
+        <p>Endereço</p>
+        <form class="form__register" [formGroup]="c" >
+          <div class="data">
+            <input formControlName="countryCode" type="text" placeholder="CEP" mask="00000-000" class="form__register-number3">
+            <input formControlName="alddress" type="text" placeholder="Logradouro" class="form__register-text">
+          </div>
+          <div class="data">
+            <input formControlName="number" type="text" placeholder="Número" class="form__register-number3">
+            <input formControlName="district" type="text" placeholder="Bairro" class="form__register-text">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn">
+    <button [disabled]="!personalInfoForm.valid || !c.valid" (click)="insertRegistry()" class="button__register">Cadastrar</button>
+  </div>
+
+  <div class="login">
+    <a href="http://localhost:4200">Já tem uma conta? Faça Login</a>
+  </div>
+</div>
+
+<footer class="footer__login-register">
+</footer>

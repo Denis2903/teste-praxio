@@ -1,0 +1,53 @@
+.header__home {
+    background-image: url("../../../assets/bg-front.png");
+    width: auto;
+    height: 800px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    
+}
+
+.header__home img {
+    width: 399px;
+    height: 242.02px;
+}
+
+
+.title {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+}
+
+.text {
+    margin: 10px 0;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: "Mukta";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    width: 211.55px;
+    height: 36px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px 32px 32px 32px;
+    font-size: 16px;
+    font-family: "Mukta";
+}

@@ -1,0 +1,159 @@
+.container2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 29px;
+    font-family: "Mukta";
+    font-weight: bold;
+    color: #585859;
+    margin-top: 0;
+}
+
+.register__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Mukta";
+    color: #0077C5;
+    margin-bottom: -50px;
+}
+
+.button__register {
+    width: 371px;
+    height: 60px;
+    border-radius: 36px 36px 36px 36px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #7626FF;
+}
+
+.button__register:hover {
+    cursor: pointer;
+}
+
+.form__register {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__register-number3 {
+    width: 99px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+    margin-right: 10px;
+}
+
+.form__register-number3::placeholder, .form__register-text::placeholder {
+    font-family: "Mukta";
+    font-size: 14px;
+    color: #CAD0DC;
+    padding: 24.53px;
+}
+
+.form__register-text {
+    width: 254.92px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.data {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.form__register {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__register input{
+    margin: 5px 0;
+    margin-right: 8px;
+}
+
+.form__register-text {
+    width: 361.92px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form__register-number {
+    width: 185.52px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+    margin-right: 8px;
+}
+
+.form__register-number2 {
+    width: 166px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form__register-text::placeholder, .form__register-number::placeholder, .form__register-number2::placeholder {
+    font-family: "Mukta";
+    font-size: 14px;
+    color: #CAD0DC;
+    padding: 24.53px;
+}
+
+.nav-logo {
+    margin-left: 10.8px;
+    margin-top: 5.38px;
+}
+
+.footer__login-register {
+    background-image: url("../../assets/bg-front.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: top; 
+    margin-top: 73px;
+    padding: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info1 {
+    margin-right: 20px;
+}
+
+.info2 {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Mukta";
+    font-weight: bold;
+    color: #585859;
+    margin-bottom: 0;
+}

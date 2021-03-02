@@ -1,0 +1,36 @@
+.footer__home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid #E0E1E2;
+}
+
+.lists {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+    color: #707070;
+    font-size: 16px;
+    font-family: "Mukta";
+}
+
+.bg {
+    background-image: url("../../../assets/bg-front.png");
+    width: 750px;
+    height: 320px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+}

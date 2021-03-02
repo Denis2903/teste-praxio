@@ -1,0 +1,28 @@
+.nav__home {
+    position: fixed;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    align-items: center;
+    
+}
+
+.btn__logout {
+    width: 124px;
+    height: 36px;
+    border: 2px solid #EAEAEC;
+    border-radius: 32px 32px 32px 32px;
+    color: #585859;
+    font-size: 16px;
+    font-family: "Mukta";
+    background-color: #FFFFFF;
+}
+
+.btn__logout:hover {
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 1100px;
+}

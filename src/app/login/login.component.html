@@ -1,0 +1,31 @@
+
+<nav>
+    <img class="nav-logo" src="../../assets/front-test-logo.png" alt="Logo do teste de Front-End">
+  </nav>
+  
+  <div class="container">
+    <h1>
+        Entrar
+    </h1>
+    
+    <div class="form__login" >
+        <form [formGroup]="loginForm" class="form__login">
+         
+            <input formControlName="email"  class="form__login-input" type="text" placeholder="E-mail">
+            <input formControlName ="senha" class="form__login-input"type="password" placeholder="Senha">
+          </form>
+          
+    </div>
+    <div class="password">
+        <p>Esqueceu a senha?</p>
+    </div>
+    <div class="button">
+       <button class="button__login" (click)="getLogin()">Entrar</button>
+  
+    </div>
+    <div class="login-register">
+        <a href="http://localhost:4200/cadastrar">Não tem uma conta? Cadastre-se</a>
+    </div>
+  </div>
+  <footer class="footer__login-register">
+  </footer>
